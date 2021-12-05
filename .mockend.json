@@ -9,6 +9,41 @@
     "body": { "string": {} },
     "post": {
       "belongsTo": "Post"
+    },
+  "Taller": {
+    "name": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
     }
   }
+    
+    "marker": [
+    {
+      "id": 1,
+      "name": "Taller Carrera 66A",
+      "address": "Calle 66A # 7-40",
+      "latitude": "4.648135217854836",
+      "longitude": "-74.06093196608047",
+      "type": "1",
+      "services":["Taller bicicletas gamma alta","Repuestos","Grua"]
+    },
+    {
+      "id": 2,
+      "name": "Taller 2",
+      "address": "Dirección Taller 2-new",
+      "latitude": "4.644699808436083",
+      "longitude": "-74.06687642753907",
+      "type": "1",
+      "services":["Taller bicicletas gamma media","Grua"]
+    },
+    {
+      "id": 3,
+      "name": "Taller 3",
+      "address": "Dirección Taller 3",
+      "latitude": "4.642964388958715",
+      "longitude": "-74.07366017585053",
+      "type": "2",
+      "services":["Aire","Llantas","Grasa"]
+    }
+  ]
 }
